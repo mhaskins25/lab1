@@ -1,3 +1,34 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+ul{
+    color: #69696a;
+    list-style-type: none;
+}
+
+#loremIpsum{
+    color: #69696a;
+    border-left: 2px solid black;
+}
+
+h1{
+    color: #000;
+}
+
+#buttonHire{
+    background-color: #000;
+    color: #FFF;
+}
+
+#buttonScroll{
+    background-color: #000;
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+    color: #69696a;
+    
 }
