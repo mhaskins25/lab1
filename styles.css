@@ -14,7 +14,7 @@ li{
     margin: 10px 0;
 }
 
-#loremIpsum{
+.loremIpsum{
     color: #69696a;
     border-left: 3px solid #69696a;
     padding-left: 12px;
@@ -31,7 +31,7 @@ h1{
     font-size: 20px;
 }
 
-#buttonHire{
+.buttonHire{
     background-color: #000;
     color: #FFF;
     text-align: center;
@@ -39,9 +39,11 @@ h1{
     height: 40px;
     width: 100%;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    border:#000;
 }
 
-#buttonScroll{
+.buttonScroll{
     background-color: #000;
     color: #FFF;
     text-align: center;
@@ -49,6 +51,8 @@ h1{
     height: 40px;
     width: 100%;
     margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border:#000;
 }
 
 a{
@@ -57,28 +61,41 @@ a{
     
 }
 
-p{
-    padding: 8px;
-}
 
 @media screen and (min-width: 768px){
     div{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
     }
-    #buttonHire{
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buttonHire{
         width: 100px;
+        margin-left: 10px;
+        border:#000;
     }
-    #buttonScroll{
+    .buttonScroll{
         width: 150px;
+        position: absolute;
+        bottom: 10px;
+        left: 45%;
+        border:#000;
     }
     ul{
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
-    #loremIpsum{
+    li{
+        padding-left: 10px;
+    }
+    .loremIpsum{
         width: 50%;
     }
     .pink{
@@ -107,6 +124,9 @@ p{
         position: absolute;
         top: 120px;
         right: 10px;
+    }
+    .secondaryTitle{
+        margin-top: 50px;
     }
 
 }
